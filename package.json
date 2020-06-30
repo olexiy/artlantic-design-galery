@@ -1,0 +1,38 @@
+{
+  "name": "artlantic-design-galery",
+  "version": "1.0.0",
+  "description": "Online galery to try on art in different context",
+  "main": "index.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=production node app",
+    "dev": "cross-env NODE_ENV=development nodemon app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/olexiy/artlantic-design-galery.git"
+  },
+  "keywords": [],
+  "author": "Olexiy Sokurenko",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/olexiy/artlantic-design-galery/issues"
+  },
+  "homepage": "https://github.com/olexiy/artlantic-design-galery#readme",
+  "dependencies": {
+    "connect-mongo": "^3.2.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "mongoose": "^5.9.20",
+    "morgan": "^1.10.0",
+    "passport": "^0.4.1",
+    "passport-google-oauth20": "^2.0.0"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.2",
+    "eslint": "^7.3.1",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.0",
+    "nodemon": "^2.0.4"
+  }
+}
